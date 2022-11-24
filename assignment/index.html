@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <span>Ani</span><span>Comp</span>
+        </div>
+        <div class="nav">
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#animes">Anime</a></li>
+                <li><a href="#manga">Manga</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+
+            <div class="search">
+                <span class="icon">
+                    <ion-icon name="search-outline" class="searchBtn"></ion-icon>
+                    <ion-icon name="close-outline" class="closeBtn"></ion-icon>
+                </span>
+            </div>
+
+            <ion-icon name="menu-outline" class="menuToggle"></ion-icon>
+        </div>
+        <div class="searchBox">
+            <input type="text" placeholder="Search here...">
+        </div>
+    </header>
+    <!-- header finishes -->
+
+    <div class="slider">
+        <div class="mySlides">
+            <img src="https://www.groundedreason.com/wp-content/uploads/2022/10/Bleach-TYBW.png" width="100%" height="400px">
+        </div>
+
+        <div class="mySlides">
+            <img src="https://www.cheatsheet.com/wp-content/uploads/2022/10/My-Hero-Academia-Season-6-Ending-Theme-Dabi-Reveal.jpg" width="100%" height="400px">
+        </div>
+
+        <div class="mySlides">
+            <img src="https://www.transcontinentaltimes.com/wp-content/uploads/2022/07/Chainsaw-Man-new-key-visual-Khushant-Runghe.jpeg" width="100%" height="400px">
+        </div>
+
+        <div class="mySlides">
+            <img src="https://w0.peakpx.com/wallpaper/355/824/HD-wallpaper-anime-spy-x-family-anya-forger-bond-spy-x-family.jpg" width="100%" height="400px">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br>
+
+    <div style="text-align:center;" >
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+    </div>
+
+    <!-- slider finishes -->
+
+
+    <div class="text" id="animes"><a href="#">Popular Animes</a></div>
+    <div class="animes">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/d5f15f87bf61d845b53fea64ee6f63f3.jpeg" alt="">
+                </a>
+                  <div class="description">Naruto Shippuden</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://i.pinimg.com/736x/e4/c7/d0/e4c7d0514772931dbddb711a90601a00.jpg" alt="">
+                </a>
+                  <div class="description">Fullmetal Alchemist: Brotherhood</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">One Piece</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BZjE0YjVjODQtZGY2NS00MDcyLThhMDAtZGQwMTZiOWNmNjRiXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">Bleach</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BYzI0YjYxY2UtNzRjNS00NTZiLTgzMDItNGEzMjU5MmE0ZWJmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">Dragon Ball</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNzc5MTczNDQtNDFjNi00ZDU5LWFkNzItOTE1NzQzMzdhNzMxXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">Attack On Titan</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNjRiNmNjMmMtN2U2Yi00ODgxLTk3OTMtMmI1MTI1NjYyZTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">Death Note</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNGM0YTk3MWEtN2JlZC00ZmZmLWIwMDktZTMxZGE5Zjc2MGExXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Hunter x Hunter</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BMjUxMzE4ZDctODNjMS00MzIwLThjNDktODkwYjc5YWU0MDc0XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">Steins Gate</div>
+              </div>
+            </div>
+            <div class="swiper-button-next" style="color: red;"></div>
+            <div class="swiper-button-prev" style="color: red;"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="text" id="animes"><a href="#">Trending Now</a></div>
+    <div class="animes">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BODFmYTUwYzMtM2M2My00NGExLWIzMDctYmRjNTNhZDc4MGI2XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Bleach: TYBW</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BZjY5MDFhZTgtOGVhMi00NTUzLTk5NjktNmRlMjI3NjI4MmE0XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Chainsaw Man</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BYWIwZjhkMzgtOWExYi00ZGIwLTg1ZTktNjQyZWIxYWFmZTc0XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Mob Psycho 100 III</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BMWM4Njg2MjUtODU3OS00MGNmLWIyNTctZGZkNTdjN2JhNmU2XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="">
+                </a>
+                  <div class="description">Spy X Family: Part 2</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BMDliMGEyMDItOGE1Mi00YWNhLTg3MGYtNWUyNGVhZDE5Y2YxXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Bochi The Rock!</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNWE3YWVhMDEtZmViNy00ZmM3LWIxYWItZjdkZGFkNTQ4NzMxXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">Golden Kamuy</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BODBmM2JmY2EtMzRlZC00Njk0LTg5NGMtZjdjMjQ5ZTJhYWQ3XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Blue Lock</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BMjRlNTgwMWItYTAxMS00ODQ2LTlhOTMtOWRjMjlhYTQxNjlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_UY1200_CR111,0,630,1200_AL_.jpg" alt="">
+                </a>
+                  <div class="description">My Hero Academia</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="https://m.media-amazon.com/images/M/MV5BYzgyNmIzODYtNTM1ZC00ZTcwLWFhYzktOTM4NGVhYzE3MzA2XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Mairimashita! Iruma-kun</div>
+              </div>
+            </div>
+            <div class="swiper-button-next" style="color: red;"></div>
+            <div class="swiper-button-prev" style="color: red;"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="text" id="animes"><a href="#">Upcoming Anime</a></div>
+    <div class="animes">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNTQ1ZGVjODAtNWYzZS00ZmZiLWExYjEtNmM1MjI2OTk1YWY3XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Tate no Yuusha no Nariagari</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNzc5MTczNDQtNDFjNi00ZDU5LWFkNzItOTE1NzQzMzdhNzMxXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Attack On Titan: Final Season</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BMWE4OWE0NmMtYjlmOC00NGE1LWJiNDItNDgxNzVjYzViMGQ3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="">
+                </a>
+                  <div class="description">Vinland Saga Season 2</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BN2U2OWQ5YTUtZTRlYS00M2I2LTk3MzEtNTQ0OTNiNGY3ZTc3XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="">
+                </a>
+                  <div class="description">Goblin Slayer 2nd Season</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BYWUzMGQ1YzUtYWEwOC00ZTkyLTkxYjUtZWNhNjg0MjIxMzY5XkEyXkFqcGdeQXVyODEyMDIxNDY@._V1_.jpg" alt="">
+                </a>
+                  <div class="description">Dr. Stone: New World</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNDNiOWM5NGItNzY4NC00MDg1LTljZjctYzViNmRlOTNhOWM2XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_FMjpg_UX1000_.jpg" alt="">
+                </a>
+                  <div class="description">Konosuba!</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNzJhMDY2NzUtYzE2Ny00YWVmLWI3YjQtODk2ZWQzYmEwMzJiXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="">
+                </a>
+                <div class="description">Demon Slayer: Season 3</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNGY4MTg3NzgtMmFkZi00NTg5LWExMmEtMWI3YzI1ODdmMWQ1XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="">
+                </a>
+                <div class="description">Jujutsu Kaisen 2nd Season</div>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="https://m.media-amazon.com/images/M/MV5BODk1NWI5YjMtOGQ4Ni00MWQ0LWI5YTUtMzc1ZmU2MGQzM2RjXkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_.jpg" alt="">
+                </a>
+                <div class="description">Tokyo Revengers: Season 2</div>
+              </div>
+            </div>
+            <div class="swiper-button-next" style="color: red;"></div>
+            <div class="swiper-button-prev" style="color: red;"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="text"><a href="#">All Animes</a></div>
+    <div class="allAnimes">
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BNjkyNDI2MTgtN2Y3NS00M2RjLWJhNDMtMmNmZmUwMDQwZTE1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg);">
+            <div class="project">
+                <p>Haikyuu!!</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BYzZjY2MzYTAtMmQxMi00MWVjLTlkZGQtYjJmNWVhODY3YjdjXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg);">
+            <div class="project">
+                <p>Code Geass</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BZmNiZTk5MDQtMjIwMi00ZDU4LTgxOWMtODYwOGU5N2E5YzY0XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg);">
+            <div class="project">
+                <p>Gintama</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BYjEwNjEwYzgtZGZkMy00MTBjLTg2MmYtNDk0MzY2NmU0MmNiXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg);">
+            <div class="project">
+                <p>Kaguya-sama</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BMmRhZDI4ODItYTAzMC00NWQ1LTk1MTctZWYyMDY3ZTU3NWFiXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg);">
+            <div class="project">
+                <p>Kakegurui</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BZjU2ZDZkYmMtYTA3Yi00NTZkLTgzYjgtOTRhMTFiOWFkODZmXkEyXkFqcGdeQXVyNjkyODc3NjQ@._V1_FMjpg_UX1000_.jpg);">
+            <div class="project">
+                <p>Akame ga Kill!</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BMDM0MDA3NzYtMDE1MS00YjZmLWJmNjQtNzgxYzlhMmMyZjQ2XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_FMjpg_UX1000_.jpg);">
+            <div class="project">
+                <p>Yu-Gi-Oh!</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="projects">
+        <a href="#">
+          <div class="card" style="background-image: url(https://m.media-amazon.com/images/M/MV5BYzJmZjZkMjQtZjJmZC00M2JkLTg5MzktN2FkOTllNTc5MmMzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg);">
+            <div class="project">
+                <p>Erased</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- anime finishes -->
+    <div class="text" id="manga"><a href="#">Manga</a></div>
+    <div class="mangas">
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547973937l/43621429._SY475_.jpg);"></div>
+          <p>Monster</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://img1.ak.crunchyroll.com/i/spire1/3fc5239256fd261e25285cd5499125571649079550_main.jpg);"></div>
+          <p>Berserk</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/513Yxi6MyQL._AC_SY780_.jpg);"></div>
+          <p>Hellsing</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/51R6ViVa3ML._SX335_BO1,204,203,200_.jpg);"></div>
+          <p>Inuyasha</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/51Jm75oHMjL._AC_SY780_.jpg);"></div>
+          <p>Claymore</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/61NIhoBSV3L._AC_SY780_.jpg);"></div>
+          <p>Akira</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/51RZYiVyRFL._AC_SY780_.jpg);"></div>
+          <p>Neon Genesis Evangelion</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://upload.wikimedia.org/wikipedia/en/0/08/Elfen_Lied_manga_volume_1.jpg);"></div>
+          <p>Elfen Lied</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://upload.wikimedia.org/wikipedia/en/9/99/Vagabond_%28manga%29_vol._1.png);"></div>
+          <p>Vagabond</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/51ampF0txVL._AC_SY780_.jpg);"></div>
+          <p>Trigun</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/51Oh-5eENWL._AC_SY780_.jpg);"></div>
+          <p>Fruits Basket</p>
+        </a>
+      </div>
+      <div class="manga">
+        <a href="#">
+          <div class="manga-card" style="background-image: url(https://m.media-amazon.com/images/I/612g0+yjqqL._AC_SY780_.jpg);"></div>
+          <p>Shaman King</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- manga finishes -->
+    <div class="text" id="shop"><a href="#">Anime Shop</a></div>
+    <div class="shop">
+      <div class="offer">
+        <a href="#">
+          <div class="shop-offer" style="background-image: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ultra-tokyo-connection-pvc-scale-figures-bungo-stray-dogs-chuya-nakahara-pop-up-parade-32445071327276_360x.jpg?v=1668625431);"></div>
+        </a>
+        <div class="instock">in-stock</div>
+        <div class="offer-text">Bungo Stray Dogs - Chuya Nakahara Pop Up Parade</div>
+        <div class="price">$39.99</div>
+      </div>
+      <div class="items">
+          <div class="item">
+            <a href="#">
+              <div class="item-offer" style="background-image: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ultra-tokyo-connection-pvc-scale-figures-spy-x-family-anya-yor-1-7-scale-figure-32404694138924_2000x2000.jpg?v=1668206029);"></div>
+            </a>
+            <div class="preorder">pre-order</div>
+            <div class="offer-text">Spy x Family - Anya & Yor 1/7 Scale Figure</div>
+            <div class="price">$157.99</div>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="item-offer" style="background-image: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ultra-tokyo-connection-nendoroids-haikyu-second-season-kenma-kozume-nendoroid-3rd-run-32382172987436_2000x2000.jpg?v=1668008929);"></div>
+            </a>
+            <div class="instock">in-stock</div>
+            <div class="offer-text">Haikyu!! Second Season - Kenma Kozume Nendoroid (3rd Run</div>
+            <div class="price">$49.99</div>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="item-offer" style="background-image: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/banpresto-pvc-scale-figures-my-hero-academia-katsuki-bakugo-special-figure-the-amazing-heroes-29505855782956_360x.jpg?v=1642010272);"></div>
+            </a>
+            <div class="instock">in-stock</div>
+            <div class="offer-text">My Hero Academia - Katsuki Bakugo Special Figure The Amazing Heroes</div>
+            <div class="price">$26.99</div>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="item-offer" style="background-image: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/ripple-junction-hats-one-piece-luffy-s-hat-dad-hat-32275696975916_360x.png?v=1667509250);"></div>
+            </a>
+            <div class="instock">in-stock</div>
+            <div class="offer-text">One Piece - Luffy's Hat Dad Hat</div>
+            <div class="price">$24.95</div>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="item-offer" style="background-image: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/gee-backpacks-bags-one-piece-bepo-backpack-31035952201772_360x.jpg?v=1658941429);"></div>
+            </a>
+            <div class="instock">in-stock</div>
+            <div class="offer-text">One Piece - Bepo Backpack</div>
+            <div class="price">$54.95</div>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="item-offer" style="background-image: url(https://cdn.shopify.com/s/files/1/0014/2648/9388/products/bioworld-enamel-pins-naruto-shippuden-village-headband-enamel-pin-set-31228127936556_360x.jpg?v=1662065440);"></div>
+            </a>
+            <div class="instock">in-stock</div>
+            <div class="offer-text">Naruto Shippuden - Village Headband Enamel Pin Set</div>
+            <div class="price">$24.95</div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- shop finishes -->
+
+
+    <div class="text" id="news"><a href="#">News</a></div>
+    <div class="news-container">
+      <div class="news-item">
+        <a href="#">
+          <h3>Crunchyroll to Stream The Ancient Magus’ Bride Season 2 Anime</h3>
+        </a>
+        <div class="news">
+          <img src="https://img1.ak.crunchyroll.com/i/spire1/873567e94ce31cc3797d4f366cf109711668877606_thumb.jpg" alt="">
+          <p>During its industry panel at Anime NYC, Crunchyroll announced the upcoming The Ancient Magus’ Bride Season 2 anime will stream on the service when it begins airing in Japan in April 2023. Hit the jump to read more!</p>
+        </div>
+        <div class="read">
+          <a href="#">Read More...</a>
+        </div>
+      </div>
+      <div class="news-item">
+        <h3>Makoto Shinkai’s Suzume Anime Film Passes 4 Billion Yen in 2nd Weekend</h3>
+        <div class="news">
+          <img src="https://img1.ak.crunchyroll.com/i/spire3/670411018e350d7d8c730d91047fa19e1669031538_thumb.jpg" alt="">
+          <p>Even in Suzume’s second weekend, the Makoto Shinkai anime film continues to astound audiences in Japan. Today the latest box office figures for the film were released, confirming that it had a monster of a second weekend. Check out the latest figures after the jump!</p>
+        </div>
+        <div class="read">
+          <a href="#">Read More...</a>
+        </div>
+      </div>
+      <div class="news-item">
+        <h3>TONIKAWA: Over the Moon For You Season 2 Airs in 2023</h3>
+        <div class="news">
+          <img src="https://img1.ak.crunchyroll.com/i/spire2/62f72714193decda5d650edfaaba01e81669021454_thumb.png" alt="">
+          <p>Nasa and Tsukasa Yuzaki are getting ready to renew their vows in Season 2 of TONIKAWA: Over The Moon For You, which is now planned for 2023 with the release of a new teaser visual and trailer. Hit the jump for all the details!</p>
+        </div>
+        <div class="read">
+          <a href="#">Read More...</a>
+        </div>
+      </div>
+      <div class="news-item">
+        <h3>Yumi Tamura's Do Not Say Mystery Manga Gets A Live-action Feature Film in Fall 2023</h3>
+        <div class="news">
+          <img src="https://img1.ak.crunchyroll.com/i/spire1/01747ca71ef791d7c90d560cbf088be31668992090_thumb.jpg" alt="">
+          <p>Eight months after the well-received TV drama series finished airing in Japan, it is finally confirmed today that a live-action feature film adaptation of Yumi Tamura's Do Not Say Mystery manga is set to be released in the fall of 2023. Hit the jump for more details!</p>
+        </div>
+        <div class="read">
+          <a href="#">Read More...</a>
+        </div>
+      </div>
+      <div class="news-item">
+        <h3>HIGH CARD TV Anime Sets January 9 Premiere with New Visual, Trailer</h3>
+        <div class="news">
+          <img src="https://img1.ak.crunchyroll.com/i/spire1/3c7d38edf0e28e8c3b7d4da8d4bdd4a71668918084_thumb.png" alt="">
+          <p>With less than a month and a half to go until the Winter 2022 anime season, original thriller series HIGH CARD is officially down to the wire after revealing its premiere date today, along with a brand-new key visual and trailer. Hit the jump for all the details!</p>
+        </div>
+        <div class="read">
+          <a href="#">Read More...</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- news finishes -->
+
+  <div class="footer">
+      <div class="fb">
+          <a href="#">
+              <i class="fab fa-facebook"></i>
+          </a>
+      </div>
+      <div class="youtube">
+          <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+      </div>
+      <div class="twitter">
+          <a href="#">
+              <i class="fab fa-twitter"></i>
+          </a>
+      </div>
+  </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script/swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
